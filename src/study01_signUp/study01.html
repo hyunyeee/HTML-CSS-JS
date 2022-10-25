@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8"> <!--한글 인코딩 명시: 한글 깨지지 않게 함-->
+    <title>회원가입 html 연습중</title>
+    <link rel="stylesheet" href="study01.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1>회원 가입을 환영합니다</h1>
+        <form>
+            <fieldset>
+                <legend>사용자 정보</legend>
+                <ul>
+                    <li>
+                        <label for="id">아이디</label>
+                        <input type="text" id="id" placeholder="아이디 입력" autofocus required>  <!--placeholder: 힌트 내용 표시, 필드에 입력시 사라짐-->
+                    </li>
+                     <li>
+                         <label for="email">이메일</label>
+                         <input type="email" id="email" placeholder="이메일 입력" required> <!--autofocus: 웹문서 불러오자마자 해당 텍스트 필드에 입력 커서 표시-->
+                    </li>
+                    <li>
+                        <label for="password">비밀번호</label>
+                        <input type="password" id="password" placeholder="비밀번호 입력" required> <!--required: 필수 필드로 지정: 미입력후 submit 클릭하면 브라우저에서 오류메시지 / form으로 잘 묶었는지 확인-->
+                    </li>
+                     <li>
+                         <label for="passwordCheck">비밀번호 확인</label>
+                        <input type="password" id="passwordCheck" placeholder="비밀번호를 한번 더 입력" required>
+                    </li>
+
+                </ul>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>이벤트와 새로운 소식</legend>
+                <!--라디오 속성 쓰려면 모든 라디오 버튼의 name에 같은 값을 주어야 함-->
+                <input type="radio" id="mail" name="mail receive">
+                <label for="mail">메일 수신</label> <!--id값 같게 해서 label값 연결-->
+
+                <input type="radio" id="no mail" name="mail receive" checked> <!--디폴트로 체크 되어있음-->
+                <label for="no mail">메일 수신 안 함</label>
+            </fieldset>
+            <br>
+            <div id="buttons">
+                <input type="submit" value="가입하기"> <!--내용 입력후 submit버튼 클릭하면 폼을 서버로 전송-->
+                <input type="reset" value="취소">
+            </div>
+        </form>
+    </div>
+</body>
