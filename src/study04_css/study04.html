@@ -5,30 +5,38 @@
     <title>Style</title>
 
     <style>
-
         #container {
             width: 500px;
-            margin: 10px auto;
+            margin: 20px auto;
             padding: 10px;
             border: 1px solid #000000;
         }
 
-        * {margin: 0;}
+        /** {margin: 20px auto;}*/
         /* *: 전체 선택자, 웹 브라우저 기본 스타일 초기화할 때 자주 사용*/
 
-        p {font-style: italic;}
+        p {font-style: italic; text-align: center;}
         /*타입 선택자: 모든 p요소에 스타일을 적용*/
 
-        img {width: 300px;}
+        .padding {
+            padding-left: 10px;
+            display: block;}
 
         .accent {
             border: 1px solid #000; /*테두리*/
-            padding: 5px; /*테두리와 내용 사이 여백*/
+            padding: 10px; /*테두리와 내용 사이 여백*/
+            /*순서는 상 하 좌 우 , 두 개만 쓰면 상.하 좌.우 */
         }
 
-        .bg {background-color: #ddd;} /*배경색*/
+        .bg {background-color: rgba(177, 231, 171, 0.93);} /*배경색*/
         /*클래스 선택자: 한 요소에 클래스 스타일 여러개 적용 가능*/
 
+        .cosmo {
+            display: block;
+            margin: auto;
+            width: 300px;
+            border-radius: 50%;
+        }
 
     </style>
 
@@ -38,10 +46,9 @@
 
 <body>
 
-
     <div id="container">
 
-        <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAyMTFfMTIy%2FMDAxNjEzMDQzMDQxOTAw.ekbWPSCpi8QK-9rv9DbibrVfKOiL8_Mnw4o59XJubyYg.PwozHX9CDKlii5sC0kvAggLJQj7FmwvsgmX84ISFo3Eg.JPEG.wldwlddl_123%2FFEDC192D-2E9D-42D4-BC34-85252F5E0A78.jpeg&type=sc960_832">
+        <img class="cosmo" src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAyMTFfMTIy%2FMDAxNjEzMDQzMDQxOTAw.ekbWPSCpi8QK-9rv9DbibrVfKOiL8_Mnw4o59XJubyYg.PwozHX9CDKlii5sC0kvAggLJQj7FmwvsgmX84ISFo3Eg.JPEG.wldwlddl_123%2FFEDC192D-2E9D-42D4-BC34-85252F5E0A78.jpeg&type=sc960_832">
 
         <p>티미의 못말리는 수호천사</p>
         <p>코스모</p>
@@ -51,8 +58,8 @@
         <!-- p 요소에 적용하는 스타일 O // <p> 태그를 적용한 스타일 X -->
 
 
-        <h1 class="accent bg">수호천사</h1>
-        <br><p>수호천사는 <span class="accent">왕관</span>을 쓰고있다 </p>
+        <h1 class="accent bg padding">수호천사</h1>
+        <p>수호천사는 <span class="accent">왕관</span>을 쓰고있다 </p>
 
     </div>
 

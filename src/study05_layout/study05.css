@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 1200px;
+    margin: 20px auto;
+}
+
+#header {
+    width: 100%;
+    height: auto;
+    background-color: pink;
+}
+
+#left_sidebar {
+    width: 250px;
+    height: 600px;
+    background-color: #ffe1aa;
+    float: left;
+}
+
+
+#contents {
+    width: 800px;
+    height: 600px;
+    background-color: #fffdd3;
+    float: left;
+
+}
+
+#right_sidebar {
+    width: 150px;
+    height: 600px;
+    background-color: rgba(200, 234, 161, 0.93);
+    float: right;
+}
+
+
+#footer {
+    width: 1200px;
+    height: 100px;
+    clear: left; /*플로팅 해제*/
+    background-color: #cff0fc;
+}
+
+nav {
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box; /*모든 요소에 테두리까지 포함한 너빗값 지정*/
+    background-color: rgba(214, 192, 255, 0.93);
+/*nav는 블록 요소임*/
+}
+
+nav ul {
+    display: inline-block;
+    width: 100%;
+    list-style: none;
+    padding: 0px 30px;
+    background-color: #ffd8dd;
+
+}
+
+nav ul li {
+    display: inline-block; /*인라인 요소와 블록 요소 모두 지정*/
+    padding: 5px 7px;
+    margin: 10px 15px;
+    border: 1px solid #222;
+    background-color: #ffedee;
+}
+
