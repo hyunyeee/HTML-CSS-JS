@@ -1,0 +1,30 @@
+p {
+    width:500px;
+    height:200px;
+    background-color:#eee;
+    border:1px solid #ccc;
+    line-height:2;
+}
+#static {
+    position:static;
+}
+#relative-1{
+    position:relative;
+}
+#relative-2 {
+    position:relative;   /* 포지셔닝 - relative */
+    left:100px;  /* 왼쪽에서 100px 떨어지게 */
+    top:-50px;   /* 위쪽에서 -50px 떨어지게 (위로 이동) */
+}
+#fixed {
+    width:100px;
+    height:100px;
+    background-color:#222;
+    position:fixed;  /* 포지셔닝 - fixed */
+    right: 50px;
+   top:30px;  /* 오른쪽에서 30px 떨어지게 */
+    /*top:30px;  !* 위쪽에서 30px 떨어지게 *!*/
+}
+
+
+

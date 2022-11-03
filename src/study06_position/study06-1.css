@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+#contents {
+    background:url("../image/pt.png") no-repeat;
+    background-size:cover;
+    width:800px;
+    height:500px;
+    margin:0 auto;
+    position: relative;
+/*absolute 사용하기 위해 부모 요소 relative 지정*/
+}
+h1 {
+    color:#fff;
+    font-size:100px;
+    text-shadow: 2px 3px 0 #000;
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
+}
