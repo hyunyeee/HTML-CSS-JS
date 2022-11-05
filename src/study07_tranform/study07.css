@@ -31,7 +31,7 @@
 
 #box2:hover{
     background: linear-gradient(135deg, #ff7fa0, #a9d9ff);
-
+    transition: 3s ease-in;
 }
 
 #box3:hover{
