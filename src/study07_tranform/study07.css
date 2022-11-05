@@ -1,0 +1,39 @@
+
+* {margin: 20px}
+
+#container {
+    width: 1000px;
+    height: 600px;
+    border: 2px solid black;
+}
+#text {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#boxes {
+    display: inline-block;
+    width: 100%;
+}
+
+.boxStyle {
+    width: 200px;
+    height: 200px;
+    background-color: #ffd8dd;
+    border: 3px solid black;
+    float: left;
+    margin: 0px 60px;
+}
+
+#box1:hover{
+    transform: rotate(45deg);
+}
+
+#box2:hover{
+    background: linear-gradient(135deg, #ff7fa0, #a9d9ff);
+
+}
+
+#box3:hover{
+    transform: skew(30deg);
+}
