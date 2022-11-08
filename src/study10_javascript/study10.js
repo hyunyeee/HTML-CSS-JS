@@ -9,7 +9,7 @@ function calSum(n) {
         sum += i;
     }
 
-    document.write("1부터 " + n + "까지 더하면 " + sum );
+    document.write("<p class='addstyle'>1부터 " + n + "까지 더하면 " + sum + "</p>");
 
 }
 
