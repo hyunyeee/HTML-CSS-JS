@@ -27,8 +27,25 @@ function closeTextBox() {
 
 }
 
+window.open("../study08_transition/study08.html", "수호천사들", "width: 300 height auto");
 
 
+/*
+팝업창 window.open() 이외에도
+<div>태그를 사용해 레이어 방식을 이용해서 기존 사이트 위에 팝업창 겹칠 수 있음
+자바스크립트 Document객체를 사용해 만들 수 있음
+*/
+
+//수호천사들 버튼 누르면 fairylink 함수 실행 해서 팝업 띄우게 하기 -> 미해결
+
+/*
+function fairyslink() {
+
+    document.querySelector('#fairys').window.open("../study08_transition/study08.html", "수호천사들", "width: 300 height auto");
+
+}
+
+*/
 
 
 
