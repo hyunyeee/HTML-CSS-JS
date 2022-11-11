@@ -1,55 +1,50 @@
-#container{
-    width: 1000px;
-    margin: 2px auto;
+* {
+    box-sizing: border-box;
 }
 
-.lists {
-    width: 1000px;
-    display: block;
-    margin: 0px auto;
+#container {
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
 }
 
-
-.lists ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: table;
-    width: 100%;
-}
-
-.lists ul li {
+input[type="text"] {
+    width: 370px;
     float: left;
-    position: relative;
-    overflow: hidden;
-
+    height: 30px;
+    padding-left: 30px;
 }
 
-.pic {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    overflow: hidden;
+button {
+    width: 90px;
+    height: 30px;
+    float: right;
+    background-color: #222;
+    color: #fff;
+    border: none;
 }
 
-#lightBox {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    top: 0;
-    left: 0;
+hr {clear: both;}
+ul {list-style: none; background-color: #fdecee; padding: 10px 20px; display: none;}
+li {line-height: 2.5; padding-left: 10px; margin-top: 3px; background-color: #ff7fa0; }
+li:hover {cursor: pointer;}
+
+
+
+.hidden {
     display: none;
 }
 
-#lightboxImage {
-    /*position: absolute; !*top, left에 의해 위치 지정*!*/
-    display: block;
-    border: 5px solid #eeeeee;
-    margin: 10% auto;
-    width: 1000px;
+/*
 
-}
+배열의 길이가 0이면 === 배열이 비어있으면
 
+hidden 클래스 추가
 
+아니면 nonhidden 클래스 추가
 
+if(배열 length==0)
+
+배열length==0 ? .hidden : .nonhidden
+
+*/

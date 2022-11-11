@@ -2,40 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Light Box</title>
+    <title>DOM</title>
     <link rel="stylesheet" href="study12.css">
     <script src="study12.js"></script>
 </head>
+
 <body>
-
-    <!--라이트 박스-->
-    <!--원하는 사진을 클릭하면 전면에 나타낸 후 주변을 어둡게 처리-->
-    <!--
-        1. 섬네일 이미지 6개를 화면에 표시
-        2. 이미지 하나를 클릭하면 그 이미지를 라이트 박스 영역에 표시, 화면에 나타남
-        3. 라이트 박스 영역을 클릭하면 다시 라이트 박스를 감춤
-    -->
-
     <div id="container">
-        <div class="lists">
-            <ul>
-                <li><img src="../image/cosmo2.png" class="pic"></li>
-                <li><img src="../image/wanda2.png" class="pic"></li>
-                <li><img src="../image/pang2.png" class="pic"></li>
-                <li><img src="../image/antiCosmo.png" class="pic"></li>
-                <li><img src="../image/antiWanda.png" class="pic"></li>
-                <li><img src="../image/pung.png" class="pic"></li>
-            </ul>
-        </div>
+        <h1>Desserts</h1>
+        <p>간식들을 적어보세요</p>
 
-        <div id="lightBox">
-            <img src="../image/cosmo2.png" alt="" id="lightboxImage">
-        </div>
-
+        <form action="">
+            <input type="text" id="item" autofocus>
+            <button onclick="newResister(); return false;">추가</button>
+        </form>
+        <hr>
+        <ul id="itemList"></ul>
     </div>
-
-
-
 
 
 
