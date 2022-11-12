@@ -19,32 +19,23 @@ button {
     width: 90px;
     height: 30px;
     float: right;
-    background-color: #222;
+    background-color: #ff9c9c;
     color: #fff;
     border: none;
 }
 
 hr {clear: both;}
-ul {list-style: none; background-color: #fdecee; padding: 10px 20px; display: none;}
-li {line-height: 2.5; padding-left: 10px; margin-top: 3px; background-color: #ff7fa0; }
+ul {list-style: none; background-color: rgba(255, 156, 156, 0.31); padding: 10px 20px; display: none;}
+li {line-height: 2.5; padding-left: 10px; margin-top: 3px; background-color: #ffffff; }
 li:hover {cursor: pointer;}
 
 
-
+/*
 .hidden {
     display: none;
 }
 
-/*
-
-배열의 길이가 0이면 === 배열이 비어있으면
-
-hidden 클래스 추가
-
-아니면 nonhidden 클래스 추가
-
-if(배열 length==0)
-
-배열length==0 ? .hidden : .nonhidden
-
+.nonhidden {
+    display: block;
+}
 */

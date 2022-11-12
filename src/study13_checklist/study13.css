@@ -1,0 +1,30 @@
+h1 {text-align: center;}
+
+ul {
+    display: block;
+    list-style: none;
+
+}
+
+li {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.check {
+    color: #999;
+    font-size: 20px;
+    margin-right: 25px;
+}
+
+.check:hover {
+    color: #222;
+}
+
+#container {
+    width: 300px;
+    margin: 0px auto;
+    background-color: #fff7b2;
+    border: solid #333333 1px;
+    padding: 20px 10px;
+}

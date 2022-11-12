@@ -1,23 +1,26 @@
 
-
-
-
-#sumNums {
+#calculAge {
     width: 500px;
-    border: solid 5px #ffd28a;
-
+    border: solid 5px #ff9c9c;
 }
 
 
-#calNumButton {
+#calAgeButton {
     display: block;
     border-radius: 3px;
     font-size: 25px;
     margin: 10px auto;
-    background-color: #ffd28a;
+    background-color: lightpink;
     color: #332e2e;
 }
 
-#result_calSum {
+#result_calAge {
     text-align: center;
 }
+
+
+
+
+
+
+

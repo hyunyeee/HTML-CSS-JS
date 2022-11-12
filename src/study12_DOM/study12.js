@@ -37,30 +37,35 @@ function newResister() {
 
     for (let i=0; i<items.length; i++) {
         items[i].addEventListener("click", function () { //i번째 요소 클릭했을 때 함수 실행
+
+
+            if(items.length===0)
+                document.querySelector('#itemList').style.hidden;
+
             if(this.parentNode)
                 this.parentNode.removeChild(this);
-
-            if(items.length===0){
-                document.querySelector('#itemList').style.display = "none";
-            }
-
 
         })
     }
 
 
-
-    /*
-
-    만약에 ul에 itemList가 비어있으면
-    *
-    * display none
-    *
-    * */
-
-
-
 }
+
+/*
+
+//ul의 자식 요소 li이 다 삭제 되어 배열이 비었을 때 배경 색 안보이게 하고싶음
+
+배열의 길이가 0이면 === 배열이 비어있으면
+
+hidden 클래스 추가
+
+아니면 nonhidden 클래스 추가
+
+if(배열 length==0)
+
+배열length==0 ? .hidden : .nonhidden
+
+*/
 
 
 
