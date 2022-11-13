@@ -30,6 +30,8 @@ input {
     font-size: 16px;
 }
 
+input:focus {outline: 0;}
+
 .addBtn {
     padding: 10px;
     width: 50px;
@@ -42,13 +44,6 @@ input {
     cursor: pointer;
     transition: 0.3s;
 }
-
-/*form::after {*/
-/*    content: "";*/
-/*    display: table;*/
-/*    clear: both;*/
-/*}*/
-
 
 ul{
     margin:0;
@@ -64,12 +59,15 @@ ul li{
     font-size:18px;
     transition: 0.2s;
 }
+
 ul li:nth-child(even) {
     background-color: #e5f1ff;
 }
+
 ul li:hover {
     background-color:#ddd;
 }
+
 .close {
     position:absolute;
     right:0;
@@ -78,6 +76,7 @@ ul li:hover {
     border:none;
     background:rgba(255,255,255,0)
 }
+
 .close:hover {
     background-color: #80c9ff;
     color:white;

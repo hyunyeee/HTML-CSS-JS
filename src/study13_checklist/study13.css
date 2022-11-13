@@ -19,6 +19,7 @@ li {
 
 .check:hover {
     color: #222;
+    cursor: pointer;
 }
 
 #container {

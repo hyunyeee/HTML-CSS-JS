@@ -15,6 +15,9 @@ input[type="text"] {
     padding-left: 30px;
 }
 
+
+input:focus {outline: 0;}
+
 button {
     width: 90px;
     height: 30px;
@@ -25,9 +28,34 @@ button {
 }
 
 hr {clear: both;}
-ul {list-style: none; background-color: rgba(255, 156, 156, 0.31); padding: 10px 20px; display: none;}
-li {line-height: 2.5; padding-left: 10px; margin-top: 3px; background-color: #ffffff; }
-li:hover {cursor: pointer;}
+
+ul {
+    list-style: none;
+    background-color: rgba(255, 156, 156, 0.31);
+    padding: 10px;
+    display: none;
+}
+
+li {line-height: 2.5;
+    padding-left: 10px;
+    margin-top: 3px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+li:hover {background-color: #dddddd;cursor: pointer;}
+
+
+.del {
+    position: absolute;
+    right: 0;
+    padding: 0 13px 0 13px;
+}
+
+.del:hover {
+    background-color: lightpink;
+    color: white;
+}
 
 
 /*
