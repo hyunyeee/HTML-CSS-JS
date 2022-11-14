@@ -8,29 +8,42 @@
 </head>
 <body>
 
+    <div id="container">
 
-    <div id="sumNums">
+        <div class="box" id="sumNums">
+            <input type="button" id="calNumButton" value="1부터 n까지 합 계산하기" onclick="calSumStart()">
+            <hr>
+            <div class="result" id="result_calSum"></div>
+        </div>
 
-        <input type="button" id="calNumButton" value="1부터 n까지 합 계산하기" onclick="calSumStart()">
-        <hr>
-        <div id="result_calSum"></div>
+        <br>
+
+        <div class="box" id="calculAge">
+            <input type="button" id="calAgeButton" value="나이 계산하기" onclick="calAge()">
+            <hr>
+            <div class="result" id="result_calAge"></div>
+        </div>
+
+        <br>
+
+        <div class="box" id="calWeight">
+            <input type="button" id="calWeightButton" value="적정 체중 계산하기" onclick="calWeight()">
+            <hr>
+            <div class="result" id="result_calweight"></div>
+
+        </div>
+
+
     </div>
 
-    <br>
-
-    <div id="calculAge">
-
-        <input type="button" id="calAgeButton" value="나이 계산하기" onclick="calAge()">
-        <hr>
-        <div id="result_calAge"></div>
-
-    </div>
-
-    <br>
 
 
 
     <script src="study10.js"></script>
     <script src="study10-1_calculAge/study10-1.js"></script>
+    <script src="study10-3_calWeight/study10-3.js"></script>
+
+
 </body>
+
 </html>

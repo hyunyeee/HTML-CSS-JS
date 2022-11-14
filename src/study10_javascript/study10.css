@@ -1,23 +1,52 @@
 
+#container {
+    width: 800px;
+    margin: 20px auto;}
 
-
-
-#sumNums {
+.box {
     width: 500px;
-    border: solid 5px #ffd28a;
-
+    margin: 30px;
 }
 
-
-#calNumButton {
+input[type=button] {
     display: block;
     border-radius: 3px;
     font-size: 25px;
     margin: 10px auto;
+}
+
+
+.result {
+    text-align: center;
+}
+
+#sumNums {
+    border: solid 5px #ffd28a;
+}
+
+
+#calNumButton {
     background-color: #ffd28a;
     color: #332e2e;
 }
 
-#result_calSum {
-    text-align: center;
+
+
+
+
+#calculAge {
+    border: solid 5px #ff9c9c;
 }
+
+#calAgeButton {
+    background-color: lightpink;
+    color: #332e2e;
+}
+
+
+
+
+
+
+
+
