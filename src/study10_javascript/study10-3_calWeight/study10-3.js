@@ -1,9 +1,3 @@
-
-
-
-
-
-
 function calWeight() {
 
     let height = parseInt(prompt("키 입력", "180(cm)"));

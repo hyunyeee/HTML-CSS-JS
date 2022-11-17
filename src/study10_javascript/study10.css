@@ -3,11 +3,24 @@
     width: 800px;
     margin: 20px auto;}
 
+
+
 .box {
     width: 500px;
     margin: 30px;
 }
 
+#sumNums {
+    border: solid 5px #ffd28a;
+}
+
+#calculAge {
+    border: solid 5px #ff9c9c;
+}
+
+#calWeight {
+    border: solid 5px #a1e7a1;
+}
 input[type=button] {
     display: block;
     border-radius: 3px;
@@ -16,31 +29,24 @@ input[type=button] {
 }
 
 
-.result {
-    text-align: center;
-}
-
-#sumNums {
-    border: solid 5px #ffd28a;
-}
-
-
 #calNumButton {
     background-color: #ffd28a;
     color: #332e2e;
 }
 
-
-
-
-
-#calculAge {
-    border: solid 5px #ff9c9c;
-}
-
 #calAgeButton {
     background-color: lightpink;
     color: #332e2e;
+}
+
+#calWeightButton {
+    background-color: #a1e7a1;
+    color: #222222;
+}
+
+
+.result {
+    text-align: center;
 }
 
 
