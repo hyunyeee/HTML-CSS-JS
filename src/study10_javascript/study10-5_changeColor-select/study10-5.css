@@ -1,0 +1,44 @@
+#container {
+    width: 800px;
+    margin: 7% auto;
+}
+
+h3 {
+    text-align: center;
+}
+
+nav {
+
+    display: inline-block;
+    margin: 0 30%;
+}
+
+nav ul {
+    display: inline-block;
+    padding: 0 10px;
+    border: black solid 1px;
+    margin: 15px auto;
+    background-color: rgba(255, 255, 255, 0.59);
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 5px 7px;
+    margin: 15px 4px;
+    border: 1px solid black;
+    color: rgba(255, 255, 255, 0);
+    size: 20px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
