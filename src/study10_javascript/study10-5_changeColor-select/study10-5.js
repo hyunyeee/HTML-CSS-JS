@@ -1,5 +1,5 @@
 //색깔 배열
-let colorArr = ["#ff8f8f", "lightsalmon", "#ffefa0", "#a1e7a1", "#5bbdff", "#596bee", "#A788FFFF"];
+let colorArr = ["#ff8f8f", "lightsalmon", "#ffefa0", "#a1e7a1", "#7DC9FFFF", "#596bee", "#A788FFFF"];
 
 let boxesList = document.querySelectorAll(".box"); //.box 배열 형태로 저장
 

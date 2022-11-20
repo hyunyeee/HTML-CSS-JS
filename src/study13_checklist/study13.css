@@ -24,8 +24,9 @@ li {
 
 #container {
     width: 300px;
-    margin: 0px auto;
+    margin: 0 auto;
     background-color: #fff7b2;
     border: solid #333333 1px;
     padding: 20px 10px;
+    color: #7dc9ff;
 }
