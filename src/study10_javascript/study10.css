@@ -1,7 +1,8 @@
 
 #container {
     width: 800px;
-    margin: 20px auto;}
+    margin: 20px auto;
+}
 
 
 
@@ -9,6 +10,13 @@
     width: 500px;
     margin: 30px;
 }
+input[type=button] {
+    display: block;
+    border-radius: 3px;
+    font-size: 25px;
+    margin: 10px auto;
+}
+
 
 #sumNums {
     border: solid 5px #ffd28a;
@@ -21,12 +29,7 @@
 #calWeight {
     border: solid 5px #a1e7a1;
 }
-input[type=button] {
-    display: block;
-    border-radius: 3px;
-    font-size: 25px;
-    margin: 10px auto;
-}
+
 
 
 #calNumButton {

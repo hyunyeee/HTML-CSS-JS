@@ -4,11 +4,9 @@
     margin: 60px auto;
     position: relative;
     background-color: #ffefa0;
-
 }
 
 #container {
-
     position: relative;
     display: inline-block;
     margin: 13% 0;
@@ -25,7 +23,6 @@
     transition: all 0.6s ease-in-out; /*부드럽게 나타남*/
     background-size: contain;
     margin-left: 13%;
-
 }
 
 button {

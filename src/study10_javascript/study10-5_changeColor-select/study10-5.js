@@ -11,4 +11,5 @@ for (let i = 0; i<boxesList.length; i++) { //boxesList 길이만큼
         let bodyTag = document.getElementById("body"); //컨테이너 접근
         bodyTag.style.backgroundColor = colorArr[i]; //배경 색 바꾸기
     });
+
 }
